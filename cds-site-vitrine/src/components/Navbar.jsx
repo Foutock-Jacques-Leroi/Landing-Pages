@@ -20,7 +20,7 @@ const Navbar = () => {
         setAbout(!about)
     }
     return (
-        <div className='fixed top-0 w-full h-auto text-black bg-opacity-55 m-0 p-0 mx-auto opress'>
+        <div className='relative top-0 w-full h-auto text-black bg-opacity-55 mx-auto'>
             <div className='flex justify-between items-center m-4'>
                 <h1 className='font-extrabold p-2 md:text-4xl sm:text-3xl text-2xl font-sans-serif bg-clip-text bg-gradient-to-r from-slate-100 to-sky-400  text-transparent text-orange-300 ml-6'>CDS Technologies.</h1>
 
