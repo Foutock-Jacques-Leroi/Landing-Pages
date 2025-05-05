@@ -20,7 +20,7 @@ const Navbar = () => {
         setAbout(!about)
     }
     return (
-        <div className='fixed top-0 w-full h-auto text-black bg-opacity-55 border-b border-b-white m-0 p-0 mx-auto opress'>
+        <div className='fixed top-0 w-full h-auto text-black bg-opacity-55 m-0 p-0 mx-auto opress'>
             <div className='flex justify-between items-center m-4'>
                 <h1 className='font-extrabold p-2 md:text-4xl sm:text-3xl text-2xl font-sans-serif bg-clip-text bg-gradient-to-r from-slate-100 to-sky-400  text-transparent text-orange-300 ml-6'>CDS Technologies.</h1>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                     <li ><a className='mt-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-white transition-all' href='#home'>Accueil</a></li>
                     <li ><a className='mt-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="#contact"> Services</a></li>
-                    <li> <a className='mt-2 -mr-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="#project"> A Propos </a></li>
+                    <li> <a className='mt-2 -mr-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="#project"> A-Propos </a></li>
                     <li className='relative flex gap-1 items-center py-3 mx-6 px-2 cursor-pointer '><button className='px-6 py-2 bg-blue-900 rounded-sm text-white cursor-pointer'>Contact</button></li>
                 </motion.ul>
 
@@ -64,10 +64,10 @@ const Navbar = () => {
 
                     <ul className='font-bold block text-black text-lg px-12 [&_li]:focus:text-sky-100 cursor-pointer'>
 
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#home'>Home <AiFillHome size={25} className='cursor-pointer' /></a></li>
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#contact'>Contact <AiFillContacts size={25} className='cursor-pointer' /></a></li>
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#project'>Projects <AiFillProject size={25} className='cursor-pointer' /></a></li>
-                        <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black'>About <AiFillDashboard size={25} className='cursor-pointer' /></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#home'>Acceuil<AiFillHome size={25} className='cursor-pointer' /></a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#contact'>Services<AiFillContacts size={25} className='cursor-pointer' /></a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#project'>A-Propos<AiFillProject size={25} className='cursor-pointer' /></a></li>
+                        <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black'>Contact <AiFillDashboard size={25} className='cursor-pointer' /></li>
 
                     </ul>
                 </div>
