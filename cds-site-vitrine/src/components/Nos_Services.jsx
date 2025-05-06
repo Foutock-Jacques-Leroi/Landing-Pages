@@ -76,7 +76,7 @@ function Nos_Services() {
                     {
                         data.map((item) => {
                             return (
-                                <div className='bg-gray-200 my-6 mx-8' key={item.id}>
+                                <div className='bg-gray-200 my-6 mx-2' key={item.id}>
 
                                     <div className={item.id === 6 || item.id === 1 ? 'flex items-center h-fit max-sm:flex-wrap gap-10 max-sm:gap-4' : 'flex items-center h-fit max-sm:flex-wrap'}>
 

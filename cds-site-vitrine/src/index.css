@@ -11,5 +11,5 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 .clip{
-  clip-path: circle(50%);
+clip-path: circle(44.3% at 50% 50%);
 }
