@@ -11,7 +11,7 @@ import React from 'react'
 function Avis_Clients() {
     return (
         <div className='h-fit w-full px-4 my-4 flex flex-wrap'>
-            <h1 className='text-blue-500 font-extrabold font-sans md:text-5xl sm:text-4xl text-3xl m-6'>Leurs Avis</h1>
+            <h1 className='text-blue-500 font-extrabold font-sans md:text-5xl sm:text-4xl text-3xl m-6 text-shadow-lg'>Leurs Avis</h1>
 
             <div className='flex flex-wrap'>
 

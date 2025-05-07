@@ -55,7 +55,7 @@ function Nos_Services() {
         <div className='w-full h-auto px-6'>
             <div className='py-6 mx-3 '>
                 <div className='font-sans text-black flex flex-col justify-between gap-4'>
-                    <h1 className='text-blue-500 font-extrabold font-sans md:text-5xl sm:text-4xl text-3xl'>Nos Services</h1>
+                    <h1 className='text-blue-500 font-extrabold font-sans md:text-5xl sm:text-4xl text-3xl text-shadow-lg'>Nos Services</h1>
                     <p className='font-light'>Nous offrons de varieter de services, tous de tres bonne qualite avec un excelent rendu, en etant fiable et a l'ecoute pour etre optimale.</p>
                 </div>
 
