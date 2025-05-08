@@ -37,18 +37,18 @@ function Footer() {
     };
 
     return (
-        <div className='h-fit w-full bg-slate-900'>
+        <div className='h-fit w-full bg-slate-900' id='contact'>
             <div className='flex flex-wrap'>
                 <h1 className='my-2 p-2 text-white font-extrabold font-sans md:text-5xl sm:text-4xl text-3xl text-shadow-lg'>Nous Contacter</h1>
-                
-                <div className=' flex max-[800px]:flex-wrap justify-center items-center '>
 
-                    <div className='flex flex-col h-[50vh] w-full items-center'>
+                <div className='flex max-[800px]:flex-wrap justify-center items-center '>
+
+                    <div className='flex flex-col h-[50vh] w-full'>
                         <p className='text-xl font-serif font-semibold text-white p-8'>Nous vous apportons une fiabilite sans faille et nous restons a lecoute de vos exigences tels quelle soit. Les Feedbacks nourisses d'avantage des liens et d'experiences</p>
-                        <div className='flex m-4 gap-3 justify-center items-center'>
-                            <FaLinkedin size={40} className='text-sky-800 cursor-pointer' />
-                            <FaFacebook size={40} className='text-blue-800 cursor-pointer' />
-                            <img src="instagram.svg" height={40} width={40} className='cursor-pointer' />
+                        <div className='flex gap-3 justify-center items-center'>
+                            <a className='text-sky-800 cursor-pointer' href="#"><FaLinkedin size={40} /></a>
+                            <a className='text-sky-800 cursor-pointer' href="#"><FaFacebook size={40} /></a>
+                            <a className='text-sky-800 cursor-pointer' href="#"><img src="instagram.svg" height={40} width={40} /></a>
                         </div>
                     </div>
 

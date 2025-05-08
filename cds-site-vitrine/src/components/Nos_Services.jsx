@@ -52,7 +52,7 @@ function Nos_Services() {
     ]
 
     return (
-        <div className='w-full h-auto px-6'>
+        <div className='w-full h-auto px-6' id='services'>
             <div className='py-6 mx-3 '>
                 <div className='font-sans text-black flex flex-col justify-between gap-4'>
                     <h1 className='text-blue-500 font-extrabold font-sans md:text-5xl sm:text-4xl text-3xl text-shadow-lg'>Nos Services</h1>

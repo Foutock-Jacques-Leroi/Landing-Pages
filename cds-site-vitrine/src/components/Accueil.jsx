@@ -10,7 +10,7 @@ import React from 'react'
 
 function Accueil() {
     return (
-        <div className=' h-[100vh] w-[100%] -mt-30 flex justify-start items-end p-4 bg-[url(/image4.jpg)] bg-no-repeat bg-cover bg-center'>
+        <div id="acceuil" className=' h-[100vh] w-[100%] -mt-30 flex justify-start items-end p-4 bg-[url(/image4.jpg)] bg-no-repeat bg-cover bg-center'>
             <div className='w-[90%] h-[80%] flex items-end p-8 font-sans max-sm:my-8'>
                 <div className='p-3 m-2 w-full h-1/2 flex flex-col justify-between items-start '>
                     <h1 className='sm:text-4xl md:text-3xl text-xl font-bold text-white'>CDS Technologies</h1>
