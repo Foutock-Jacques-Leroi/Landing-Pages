@@ -17,6 +17,7 @@ import Nos_Clients from './components/Nos_Clients'
 import Avis_Clients from './components/Avis_Clients'
 import Staff from './components/Staff'
 import Location from './components/Location'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Avis_Clients />
       <Staff />
       <Location />
+      <Footer />
     </>
   )
 }

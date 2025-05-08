@@ -36,7 +36,7 @@ function Location() {
     ]
 
     return (
-        <div className='w-full h-screen px-6 m-4'>
+        <div className='w-full h-fit px-6 m-4'>
             <h1 className='text-shadow-lg font-extrabold md:text-4xl sm:text-3xl text-2xl text-blue-500 gap-4'> Ou Nous Trouver <span className='font-extrabold text-teal-300 md:text-5xl sm:text-4xl text-3xl '>?</span></h1>
 
             <div className='px-2 my-10 flex flex-wrap justify-center gap-6'>
