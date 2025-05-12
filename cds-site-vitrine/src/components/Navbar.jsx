@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { AiFillHome, AiFillProject, AiFillContacts, AiOutlineGithub, AiFillGithub, AiFillDashboard } from 'react-icons/ai'
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -45,10 +45,10 @@ const Navbar = () => {
 
                     className='hidden md:flex font-bold text-white text-lg [&_li]:cursor-pointer'>
 
-                    <li ><a className='mt-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-white transition-all' href='#accueil'>Accueil</a></li>
-                    <li ><a className='mt-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="#services"> Services</a></li>
-                    <li> <a className='mt-2 -mr-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="#a-propos"> Apropos </a></li>
-                    <li className='relative flex gap-1 items-center py-3 mx-6 px-2 cursor-pointer '><a className="px-6 py-2 bg-blue-900 rounded-sm text-white cursor-pointer" href="#contact">Contact</a></li>
+                    <li ><a className='mt-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 border-l-white transition-all' href="/#accueil">Accueil</a></li>
+                    <li ><a className='mt-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="/#services"> Services</a></li>
+                    <li> <a className='mt-2 -mr-2 flex items-center py-3 mx-4 px-2 hover:border-l-[3px] duration-200 transition-all border-l-white' href="/#a-propos"> Apropos </a></li>
+                    <li className='relative flex gap-1 items-center py-3 mx-6 px-2 cursor-pointer '><a className="px-6 py-2 bg-blue-900 rounded-sm text-white cursor-pointer" href="/#contact">Contact</a></li>
                 </motion.ul>
 
 
@@ -65,9 +65,9 @@ const Navbar = () => {
                     <ul className='font-bold block text-black text-lg px-12 [&_li]:focus:text-sky-100 cursor-pointer'>
 
                         <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#home'><AiFillHome size={25} className='cursor-pointer' />Acceuil</a></li>
-                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#contact'><AiFillContacts size={25} className='cursor-pointer' />Services</a></li>
+                        <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='/#contact'><AiFillContacts size={25} className='cursor-pointer' />Services</a></li>
                         <li onClick={() => handleNav()} ><a className='flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href='#project'><AiFillProject size={25} className='cursor-pointer' />Apropos</a></li>
-                        <li onClick={() => handleAbout()} className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black'><AiFillDashboard size={25} className='cursor-pointer' />Contact</li>
+                        <li onClick={() => handleAbout()}><a className='relative flex gap-4 items-center py-3 my-4 mx-6 px-2 border-l-[3px] hover:border-l-[3px] duration-200 transition-all border-l-black' href="/#contact"><AiFillDashboard size={25} className='cursor-pointer' />Contact</a></li>
 
                     </ul>
                 </div>

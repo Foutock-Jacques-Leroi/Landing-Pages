@@ -4,6 +4,8 @@ import { ToastContainer, toast } from 'react-toastify'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom'
+import Internet_Plan from './components/Internet_Plan'
+import NotFound from './NotFound'
 
 
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Links } from 'react-router-dom'
 
 
 
@@ -87,8 +88,7 @@ function Nos_Services() {
                                                 <h1 className=' text-xl font-extrabold text-center md:text-3xl sm:text-2xl p-1'>{item.name}</h1>
                                             </div>
                                             <p className='font-light p-6 text-center'>{item.info}</p>
-                                            <p className={item.id === 6 ? 'hidden' : 'text-center font-bold p-2'}>Voir Plus ...</p>
-                                        </div>
+                                            <Link to="/internet_plan" className={item.id === 6 ? 'hidden' : 'text-center font-bold p-2 cursor-pointer'} >Voir Plus ...</Link>                                        </div>
 
                                     </div>
                                 </div>
