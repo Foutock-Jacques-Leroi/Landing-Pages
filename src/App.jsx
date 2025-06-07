@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import Infotext from './components/Infotext'
 import WhoAreWePage from './components/WhoAreWePage'
 import FirstPage from './components/FirstPage'
+import Page from './components/Page'
+import CarouselGallery from './components/CarouselGallery'
 
 
 function App() {
@@ -17,7 +19,9 @@ function App() {
       <Navbar />
       <Infotext />
       <WhoAreWePage />
+      <Page />
       <FirstPage />
+      <CarouselGallery />
       <Footer />
 
 

@@ -11,7 +11,7 @@ function FirstPage() {
 
 
             <div className='my-2 py-4'>
-                <p className='text-center text-3xl font-bold mb-1 pt-5'>WHAT CAN WE OFFER</p>
+                <p className='text-center text-3xl font-extrabold mb-1 pt-5'>WHAT CAN WE OFFER</p>
                 <p className='text-center text-xl font-light text-gray-500 mb-4'> These Are Our Major Brands Of Services </p>
                 <center><hr className='w-30 border-[2px] rounded-full flex items-center text-sky-300 justify-center' /></center>
             </div>
