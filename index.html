@@ -1,13 +1,52 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <script src="darkTheme.js"></script>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+  <style>
+    html {
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+
+    }
+
+    body {
+      scroll-behavior: smooth;
+    }
+
+    #preloader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 105vh;
+      position: fixed;
+      width: 100%;
+      background-color: white;
+      margin-top: -27px;
+      padding: 0px;
+      z-index: 100;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="preloader">
+    <img src="spinner.svg" height="300" width="300" />
+  </div>
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    const preloader = document.getElementById("preloader")
+    window.addEventListener('load', () => {
+      preloader.style.display = "none"
+    }) 
+  </script>
+</body>
+
 </html>
