@@ -8,12 +8,12 @@ function WhoAreWePage() {
 
 
 
-        <div className='w-full h-screen px-4 py-3 bg-red-300'>
+        <div className='w-full h-screen px-4 py-3'>
             <div className='px-2 m-3'>
                 <div>
                     <p className='font-bold text-center text-orange-400'>About Us</p>
-                    <p className='text-center text-3xl font-extrabold mb-4 pt-4'>WHO ARE WE ON THE <br />CARGO SHIPPING DOMAIN</p>
-                    <center><hr className='w-30 border-[2px] rounded-full flex items-center justify-center' /></center>
+                    <p className='text-center text-gray-800 text-3xl font-extrabold mb-4 pt-4'>WHO ARE WE ON THE <br />CARGO SHIPPING DOMAIN</p>
+                    <center><hr className='w-30 border-[2px] text-sky-300 rounded-full flex items-center justify-center' /></center>
                 </div>
 
 
@@ -29,10 +29,10 @@ function WhoAreWePage() {
                         <p className='px-6'>Lorem ipsum dolor, sit amet consectetur ad
                             ipisicing elit. Ea, accusamus! Ad ullam asperiores quibusdam voluptas nam, vero eos vitae sequi, 
                             illo veniam minus itaque unde expedita aperiam provident dignissimos quos?
-                        Lorem ipsum dolor, sit amet consectetur ad
+                            Lorem ipsum dolor, sit amet consectetur ad<br /> <br />
                             ipisicing elit. Ea, accusamus! Ad ullam asperiores quibusdam voluptas nam, vero eos vitae sequi, 
                             illo veniam minus itaque unde expedita aperiam provident dignissimos quos?
-                        Lorem ipsum dolor, sit amet consectetur ad
+                            Lorem ipsum dolor, sit amet consectetur ad<br /> <br />
                             ipisicing elit. Ea, accusamus! Ad ullam asperiores quibusdam voluptas nam, vero eos vitae sequi, 
                             illo veniam minus itaque unde expedita aperiam provident dignissimos quos?</p>
                     </div>
